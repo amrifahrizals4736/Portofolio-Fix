@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="output.css" rel="stylesheet">
+</head>
+<body>
+
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#home" class="font-bold text-3xl text-primary py-6 block lg:hidden lg:block">AFS</a>
+                    <a href="#home" class="font-bold text-lg text-primary py-4 hidden absolute lg:block lg:static">Amri Fahrizal Shiddiq</a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden lg:block">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">About</a>
+                            </li>
+                            <li class="group">
+                                <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Experiences</a>
+                            </li>
+                            <li class="group">
+                                <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Portofolio</a>
+                            </li>
+                            <li class="group">
+                                <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section Start -->
+    <section id="home" class="pt-36">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="mb-3 text-base font-semibold text-primary">Hi There, <span class="block font-bold text-slate-900 text-4xl mt-1">Amri Fahrizal Shiddiq</span></h1>
+                    <h2>I create stunning website for your business</h2>
+                    <h2>Intermediate experinence in web design</h2>
+                    <h2 class="mb-10">and development.</h2>
+                    <a href="https://wa.me/+6281229433711" class="inline-block animate-bounce text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Hubungi Saya</a>
+                </div>
+                <div class="w-full self-end px-4 lg:w-1/2">
+                    <div class="relative mt-10">
+                        <img src="dist/img/img_amri.png" alt="Amri Fahrizal"
+                        class="w-72 mx-auto" />
+                        <span class="absolute -bottom-0 -z-10 left-1/2 -translate-x-1/2">
+                            <svg width="300" height="250" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#10b981" d="M45.4,-46.9C58.6,-32.1,69,-16.1,68.1,-0.9C67.2,14.3,55.1,28.6,41.9,40.4C28.6,52.3,14.3,61.6,0.7,60.9C-12.9,60.1,-25.7,49.4,-39.6,37.6C-53.4,25.7,-68.1,12.9,-72.7,-4.6C-77.4,-22.1,-71.8,-44.2,-58,-58.9C-44.2,-73.7,-22.1,-81.1,-3,-78.1C16.1,-75.1,32.1,-61.6,45.4,-46.9Z" transform="translate(100 100) scale(1.1)" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+        <script src="dist/js/script.js"></script>
+</body>
+</html>
